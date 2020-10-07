@@ -1,0 +1,48 @@
+Performing C SOURCE FILE Test RDSEED_RUN_RESULT failed with the following compile output:
+Change Dir: /home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfe50/fast && /usr/bin/make -f CMakeFiles/cmTC_dfe50.dir/build.make CMakeFiles/cmTC_dfe50.dir/build
+make[1]: Entering directory '/home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfe50.dir/src.c.o
+/usr/bin/cc   -pthread -Wall -march=native -maes -mrdseed -funroll-loops -DRDSEED_RUN_RESULT -mrdseed   -o CMakeFiles/cmTC_dfe50.dir/src.c.o   -c /home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dfe50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe50.dir/link.txt --verbose=1
+/usr/bin/cc -pthread -Wall -march=native -maes -mrdseed -funroll-loops -DRDSEED_RUN_RESULT -mrdseed    -rdynamic CMakeFiles/cmTC_dfe50.dir/src.c.o  -o cmTC_dfe50 
+make[1]: Leaving directory '/home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+#include <x86intrin.h>
+int main(){
+unsigned long long r;
+_rdseed64_step(&r);
+return 0;
+}
+
+Performing C SOURCE FILE Test RDSEED_RUN_RESULT failed with the following compile output:
+Change Dir: /home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_422d6/fast && /usr/bin/make -f CMakeFiles/cmTC_422d6.dir/build.make CMakeFiles/cmTC_422d6.dir/build
+make[1]: Entering directory '/home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_422d6.dir/src.c.o
+/usr/bin/cc   -pthread -Wall -march=native -maes -mrdseed -funroll-loops -DRDSEED_RUN_RESULT -mrdseed   -o CMakeFiles/cmTC_422d6.dir/src.c.o   -c /home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_422d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_422d6.dir/link.txt --verbose=1
+/usr/bin/cc -pthread -Wall -march=native -maes -mrdseed -funroll-loops -DRDSEED_RUN_RESULT -mrdseed    -rdynamic CMakeFiles/cmTC_422d6.dir/src.c.o  -o cmTC_422d6 
+make[1]: Leaving directory '/home/gtorres/Desktop/Send/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+#include <x86intrin.h>
+int main(){
+unsigned long long r;
+_rdseed64_step(&r);
+return 0;
+}
+

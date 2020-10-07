@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gtorres/Desktop/Send/test/main.cpp
+Actuator.h
+/home/gtorres/Desktop/Send/test/Actuator.h
+Cloud.h
+/home/gtorres/Desktop/Send/test/Cloud.h
+Setup.h
+/home/gtorres/Desktop/Send/test/Setup.h
+subsystem.h
+/home/gtorres/Desktop/Send/test/subsystem.h
+
+Actuator.h
+fixedPoint.h
+fixedPoint.h
+
+Cloud.h
+fixedPoint.h
+fixedPoint.h
+
+Setup.h
+fixedPoint.h
+fixedPoint.h
+
+fixedPoint.h
+emp-sh2pc/emp-sh2pc.h
+emp-sh2pc/emp-sh2pc.h
+emp-tool/emp-tool.h
+emp-tool/emp-tool.h
+iomanip
+-
+
+subsystem.h
+fixedPoint.h
+fixedPoint.h
+

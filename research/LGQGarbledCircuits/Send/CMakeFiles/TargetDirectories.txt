@@ -1,0 +1,7 @@
+/home/gtorres/Desktop/Send/CMakeFiles/install/strip.dir
+/home/gtorres/Desktop/Send/CMakeFiles/install/local.dir
+/home/gtorres/Desktop/Send/CMakeFiles/install.dir
+/home/gtorres/Desktop/Send/CMakeFiles/list_install_components.dir
+/home/gtorres/Desktop/Send/CMakeFiles/rebuild_cache.dir
+/home/gtorres/Desktop/Send/CMakeFiles/edit_cache.dir
+/home/gtorres/Desktop/Send/CMakeFiles/main.dir

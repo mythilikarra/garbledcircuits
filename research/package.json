@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cmake": "^0.0.4"
+  }
+}

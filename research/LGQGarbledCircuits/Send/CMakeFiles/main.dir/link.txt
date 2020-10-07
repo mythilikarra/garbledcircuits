@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -Wall -march=native -maes -mrdseed -funroll-loops -std=c++11 -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/main.dir/test/main.cpp.o  -o bin/main  -Wl,-rpath,/usr/local/lib -lssl -lcrypto /usr/local/lib/libemp-tool.so 
